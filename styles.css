@@ -83,3 +83,21 @@
     background-color: var(--teal);
     cursor: pointer;
 }
+.footer {
+    background-color: var(--teal);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer p {
+    margin: 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
