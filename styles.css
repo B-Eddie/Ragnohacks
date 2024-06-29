@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica';
 }
 
 :root {
@@ -24,29 +25,45 @@
     display: flex;
 }
 
-/* phonee */
+#description {
+    padding-top: 1em;
+
+}
+
+/* phone */
 @media screen and (max-width: 768px) {
-    #title {
-        font-size: 4.5em;
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
     }
+
+    #title {
+        font-size: 3em;
+    }
+
     #description {
-        font-size: 1.5em;
+        font-size: 0.9em;
     }
 
     .signup input {
         width: 10em;
-        font-size: 1.5em;
+        font-size: 1em;
     }
     
     .signup button {
         width: auto;
         cursor: pointer;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 }
 
 /* computer */
 @media screen and (min-width: 1024px) {
+    body {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     #title {
         font-size: 10em;
     }
@@ -63,6 +80,18 @@
         width: auto;
         cursor: pointer;
         font-size: 1.5em;
+    }
+
+    .hours {
+        position: absolute;
+        right: 0;
+        margin-right: 10em;
+    }
+    
+    .hackers {
+        position: absolute;
+        right: 0;
+        margin-top: 20em;
     }
 }
 
@@ -94,10 +123,39 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.footer p {
-    margin: 0;
+
+.about h2 {
+    font-size: 5em;
 }
-.footer a {
-    color: white;
-    text-decoration: none;
+
+.description {
+    width: 40em;
 }
+
+.statistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle-statistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    width: auto;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.circle-statistic span {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.circle-statistic p {
+    font-size: 1.5em;
+}
+
