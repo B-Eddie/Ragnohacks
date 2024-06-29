@@ -79,35 +79,27 @@
     font-size: 2em;
 }
 
+
+
+
 .sponsors {
     margin-top: 5em;
-    overflow-x: hidden;
 }
-
-.carousel {
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-    width: 100%;
-    animation: scroll 4s linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-14% * 5));
-    }
-}
-
 .sponsor-container {
-    display: flex;
-    flex-direction: column;
     background-color: var(--orange-3);
-    padding: 1.5em 3em 3em 3em;
+    padding: 1.5em 2em 2em 2em;
     border-radius: 30px;
     margin-top: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sponsor-image img {
+    width: 15vw;
+    margin: 0 auto; /* Add this line to center the image horizontally */
 }
 
 .sponsor-container h2 {

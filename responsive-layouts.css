@@ -1,3 +1,7 @@
+/* phone = smaller than 479
+tablet = 480-1023
+phone = 1024 and bigger */
+
 /* phone */
 @media screen and (max-width: 479px) {
     body {
