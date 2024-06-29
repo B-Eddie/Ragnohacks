@@ -102,10 +102,16 @@
     margin: 0 auto; /* Add this line to center the image horizontally */
 }
 
-.sponsor-container h2 {
-    font-size: 2vw;
-}
-
 .sponsor-image img {
     width: 15vw;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    margin-top: 4em;
+}
+
+footer p {
+    padding-top: 1em;
 }

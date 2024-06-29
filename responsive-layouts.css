@@ -55,6 +55,10 @@ phone = 1024 and bigger */
     .description2 {
         font-size: 1.2em;
     }
+
+    .sponsor-container h2 {
+        font-size: 5vw;
+    }
 }
 
 /* Tablet */
@@ -122,6 +126,10 @@ phone = 1024 and bigger */
     .description2 strong {
         font-size: 2em;
     }
+
+    .sponsor-container h2 {
+        font-size: 4.5vw;
+    }
 }
 
 /* computer */
@@ -182,6 +190,10 @@ phone = 1024 and bigger */
 
     .circle-statistic p {
         font-size: 1.5em;
+    }
+
+    .sponsor-container h2 {
+        font-size: 2vw;
     }
 }
 
